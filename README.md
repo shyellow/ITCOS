@@ -18,6 +18,8 @@ Download all files and run ITCOS.ipynb in an integrated development environment 
 
 `RKCP.tif` is the result obtained from non-terrain factor calculations.
 
+`Paper Folder` contains the calculation results of each factor of RKCP.
+
 # Reference 
 
 The RT-WFP.ipynb file in this project implements a TIN-based slope length extraction algorithm. This project utilizes this algorithm to calculate slope length factors.
