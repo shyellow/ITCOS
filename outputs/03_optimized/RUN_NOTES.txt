@@ -1,0 +1,14 @@
+﻿Count-and-span MFO
+Result: rongcha10_RT_WFP_RUSLE_A_MFO_SPAN.shp
+Four points: the centroid G and the centroids of the three edge-G subtriangles.
+H = wN*(K-1)/3 + wD*SPAN/5. Weights: 1/2, 1/2.
+S = 5*(K-1) + 3*SPAN. H = S/30.
+Total S: 109231 -> 48387.
+One sweep, population 50, 2 coordinates, 100 local iterations, seed 20261019.
+
+NCLASS0/NCLASS and SPAN0/SPAN give the four-point class count and range before/after.
+SCORE0/SCORE and OBJ0/OBJ give integer S and normalized H. Invalid scores are -1 or null.
+The optimizer accepts a strict decrease of summed incident-face S. Individual scores may rise.
+C0_NEW through C3_NEW use each face's original LS. RKCPLS and EROS_CLASS use the
+original spatial LS field and RKCP at the final centroid. LS and SLen_m retain original values.
+Moved elevations are interpolated on the original TIN. Areas and perimeters use the new XY.

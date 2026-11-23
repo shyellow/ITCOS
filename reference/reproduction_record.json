@@ -1,0 +1,54 @@
+{
+  "verified_on": "2026-11-23",
+  "platform": "Windows AMD64",
+  "python": "3.10.11",
+  "gdal": "3.10.3",
+  "geos": "3.13.1",
+  "environment": "Fresh Python venv, installed with pip from requirements.txt, pip check passed.",
+  "check": {
+    "passed": true,
+    "inputs_checked": 6,
+    "files_checked": 15,
+    "arrays_checked": 29,
+    "search_logs_checked": 2,
+    "mismatches": []
+  },
+  "faces": 26861,
+  "traced_segments": 134347,
+  "slope_deg": [
+    0.0,
+    65.95246815174826
+  ],
+  "horizontal_length_m": [
+    0.0,
+    1407.1203858938852
+  ],
+  "LS": [
+    0.0,
+    93.53763509547053
+  ],
+  "terrain_stop_counts": {
+    "LOCAL_MAX": 22578,
+    "FLAT": 77,
+    "LEVEL_RIDGE": 1027,
+    "FLAT_START": 27,
+    "BOUNDARY": 3152
+  },
+  "valid_objective_faces": 26252,
+  "mixed_faces": [
+    8947,
+    4634
+  ],
+  "integer_score": [
+    109231,
+    48387
+  ],
+  "span_sum": [
+    17177,
+    7299
+  ],
+  "local_MFO_calls": 4997,
+  "accepted_vertex_moves": 3186,
+  "MFO_stage_elapsed_seconds": 610.24,
+  "comparison_basis": "Original archived scientific artifacts at the study seed and equal weights."
+}

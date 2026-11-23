@@ -1,0 +1,74 @@
+{
+  "inputs": {
+    "data/RKCP.tif": "1d7d60aa884ecf9045c3043416e53aaa64f7aa3c4dc90216d36a6f7d1cf10f53",
+    "data/tin/rongcha10.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "data/tin/rongcha10.dbf": "58fa0db83b25453a3a87d7e780a910635b2f8f11668975c7bbf4598f13d38653",
+    "data/tin/rongcha10.prj": "99a5a32f41f7df7e52e869dca1b2df8b2009ba20c28dbf95e61dc9c891dffd38",
+    "data/tin/rongcha10.shp": "351818e9dc31d13f3b48bbb733debcecc8157409165f1b6180538f10683370f6",
+    "data/tin/rongcha10.shx": "d136c7c3c8c62de8d1e358f9acbcd2cd177798a966a30116038cb7d1d440d0bf"
+  },
+  "outputs": {
+    "files": {
+      "01_terrain/rongcha10_RT_WFP_LS.shp": "351818e9dc31d13f3b48bbb733debcecc8157409165f1b6180538f10683370f6",
+      "01_terrain/rongcha10_RT_WFP_LS.shx": "d136c7c3c8c62de8d1e358f9acbcd2cd177798a966a30116038cb7d1d440d0bf",
+      "01_terrain/rongcha10_RT_WFP_LS.dbf": "bbdf739a7747c4f7b70ff9ce6fae95bb7b391d1bc1a650baa8306b82a615927d",
+      "01_terrain/rongcha10_RT_WFP_LS.prj": "99a5a32f41f7df7e52e869dca1b2df8b2009ba20c28dbf95e61dc9c891dffd38",
+      "01_terrain/rongcha10_RT_WFP_LS.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "02_erosion_before/rongcha10_RT_WFP_RUSLE_A.shp": "351818e9dc31d13f3b48bbb733debcecc8157409165f1b6180538f10683370f6",
+      "02_erosion_before/rongcha10_RT_WFP_RUSLE_A.shx": "d136c7c3c8c62de8d1e358f9acbcd2cd177798a966a30116038cb7d1d440d0bf",
+      "02_erosion_before/rongcha10_RT_WFP_RUSLE_A.dbf": "180513957f39a207870d295173a23df341f0e9abfe0945e348f93c2d82103bb5",
+      "02_erosion_before/rongcha10_RT_WFP_RUSLE_A.prj": "99a5a32f41f7df7e52e869dca1b2df8b2009ba20c28dbf95e61dc9c891dffd38",
+      "02_erosion_before/rongcha10_RT_WFP_RUSLE_A.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "03_optimized/rongcha10_RT_WFP_RUSLE_A_MFO_SPAN.shp": "6d0b842eaf47027ff1f1242007c6b4409ea8b28bfc480587e97c140baddf363b",
+      "03_optimized/rongcha10_RT_WFP_RUSLE_A_MFO_SPAN.shx": "ce0edba88c91a8efe64588a766a13dcced343729e68869fb1d44fceb0219f696",
+      "03_optimized/rongcha10_RT_WFP_RUSLE_A_MFO_SPAN.dbf": "511f63c4a937d7ff6446797db364f334a529ff100e587efa369ef2a46c93367d",
+      "03_optimized/rongcha10_RT_WFP_RUSLE_A_MFO_SPAN.prj": "99a5a32f41f7df7e52e869dca1b2df8b2009ba20c28dbf95e61dc9c891dffd38",
+      "03_optimized/rongcha10_RT_WFP_RUSLE_A_MFO_SPAN.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    "arrays": {
+      "01_terrain/rtwfp_paths_and_results.npz": {
+        "points": "54df0aad95ab877e55965bb2db9d09d03077373ee2de6f8861e4d7014741ba51",
+        "faces": "5747e40797a70903682cae80ea524052ae30b90fc341f0e78a3309c98abee729",
+        "kinds": "ab167d749463c0aecda15ab9d572fb73a2f0674351ed761aa6fa765479e120b8",
+        "point_offsets": "1d35fa60130f296f93499a7690f7ebadd5560766cfc351b3e9e2880dda5cf96a",
+        "segment_offsets": "cf741bf9eea56077cf5c4d2025b910e6464b4762421aa090b72acc90e5d23b54",
+        "lengths": "3896cf6fee6e9c538d9c301e6e85b97bb344c2ca0064681893683d551128cb37",
+        "statuses": "ec9be447751d222bb950b4282b7a82ac848566d9fa61c738ddd07f4fae4d6fca",
+        "tri_ids": "36cb46a58d0415955ed059c61927275a74ab5187fd0208b4d1851cb96feeb474",
+        "slope_degrees": "f66ac13bce7887933b80d043c1efde36076cfffaf9cf91fb69d3224692e89dba",
+        "gradient": "c9a079a9b73a673b39148192c8625cd8637417243730c8815acd47912c04893e"
+      },
+      "03_optimized/mesh_result.npz": {
+        "xy0": "54e5d484e5ea8c7d99facbff63066b3979f5420b5c775edad6ddb2b15cd58f96",
+        "z0": "517cf2f6dccfcc6ce9b42a78ede2e60fbf3eb53ba2269e5bf9ad3dd73ef0d1fb",
+        "xy": "b51897c3c1bb8e33e345e53e24e1ca1859e6babe5bae45df836925ed6487f561",
+        "z": "34aeb755cad62ae0d8dc21a760ed816dd740834aad96a709a9934945d05b3d76",
+        "triangles": "1e6aab2896e49fdfc45b5598b896896bace18a84e24edc602c19167b59fed647",
+        "ls": "1f01b3099c9d1e712709f0fe9bc16b00d1c0b5443425bb2299cb8afc649a8ae2",
+        "ids": "36cb46a58d0415955ed059c61927275a74ab5187fd0208b4d1851cb96feeb474",
+        "counts_before": "c5e30e254ebaad60777f3ed826a5f7db5f7ae2874153708c03e02748a6660ed4",
+        "counts_after": "3366ee34dd24fa5690d5543969c7561f68a666b2b5f81dc811dc24fdce91f0de",
+        "spans_before": "ec2443d8f45ea0310b49be70dfa13f143c6f73dc14bca009cdaeb4f16b5a036f",
+        "spans_after": "48f13dea0ac812b5448838ee988b795e83c0c95316c18531bd47cd90fa7eea68",
+        "scores_before": "f173aad55e3071c1c31ea4afb9ff1d94bc4ab3fccb07a4e84c9c18e214bf8194",
+        "scores_after": "47ca247df72a2e2d3301706b7746d255ca06d55e89e1f799b724950162dbdc03",
+        "classes_after": "34d23a43dbee6576e04798fe3d90c97080dff65c8cbc0c20092fe749697be31b",
+        "sample_values_after": "95d5f983f080ad24c5cf03c0c0bd4d94def67c4659224051e18a31b96536f4e1",
+        "centroid_ls": "d2f032f3f7d3fb2f237f41547d08787a4e2d43e1cea427d560cadb97842f7708",
+        "centroid_rkcp": "7dd3354608f66a992fc15f148a4d05447698dc84232e0179e580f2ad02aa1017",
+        "rkcp_ls": "e4332f7075b55892b067c409d38be0c4947f719508c234950e6498e0885065ad",
+        "erosion_class": "2050d339b27aebd82a6bb6b7a69b3c118e3dceda8f31eda607e05d0d43e8e4d1"
+      }
+    },
+    "search_logs": {
+      "03_optimized/accepted_moves.jsonl": {
+        "records": 3186,
+        "sha256": "96270c7f760c7036ae8d567290cd8c1fb67cc44870f06bfda8e6fb0f367cdafb"
+      },
+      "03_optimized/mfo_runs.jsonl": {
+        "records": 4997,
+        "sha256": "be19bbc52569d606fa8afb4b7cf961708ed487cfe5f856e22b0b47dba91840ee"
+      }
+    }
+  }
+}
